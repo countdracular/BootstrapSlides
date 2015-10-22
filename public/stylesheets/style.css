@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div.firstpage {
+  background: url("../images/firstpage.jpg") no-repeat;
+  -webkit-background-size: contain;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.middlepage {
+  background: url("../images/mainbg.jpg") no-repeat;
+  -webkit-background-size: contain;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.lastpage {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: url("../images/thankpage.png") no-repeat;
+  -webkit-background-size: contain;
+  background-size: 100% 100%;
+}
+
